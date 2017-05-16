@@ -30,6 +30,8 @@
     <link rel="dns-prefetch" href="//code.jquery.com">
     <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
     <!-- Icons -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
     <!-- http://realfavicongenerator.net/ -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="assets/icons/favicon-32x32.png" sizes="32x32">
@@ -47,18 +49,134 @@
     <link rel="stylesheet" media="all" href="css/fonts.css">
     <link rel="stylesheet" media="all" href="css/typography.css">
     <link rel="stylesheet" media="all" href="css/main.css">
+    <link rel="stylesheet" media="all" href="css/grid.css">
     <!-- Modernizr: feature detection -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
   </head>
 
   <body>
-    <div class="intro">
-      <h1>GDM - HTML5 Template</h1>
-      <p>We educate future talents in Design for Print and Non-Print, Web- and App Development, Audio and Video Production, 2D- and 3D Animations, Printing and Packaging and the whole Management of those workflows!</p>
-    </div>
-    <!-- Scripts: Vendors -->
-      <!-- For example: jQuery, lodash, handlebars, ... -->
-    <!-- Scripts: App -->
-    <script src="js/main.js"></script>
+    
+  <section class="hero">
+    <div class="hero__text">
+       <h2 class="hero__title">Heyvaert Design</h2>
+       <p class="graphicdesigner">Graphic Designer</p>
+       <a href="#" class="hero__button">Contact</a><div>    </div>
+  </section>
+
+  <!-- begin hoofdnavigatie -->
+	<div class="sf-grid__wrapper">
+		<div class="sf-grid__container">
+			<div class="sf-grid__row ">
+
+					<nav id="main-navigation">
+						<ul class="clearfix">
+							<li class="hasSubMenu">
+								<a href="#" title="terug naar de agency homepage">About</a>
+									<ul>
+								    <li>
+										  <a href="Overons.html">Over ons</a>
+										  <a href="Diensten.html">Diensten</a>
+								    </li>
+									</ul>
+							</li>
+							<li class="hasSubMenu">
+								<a href="Team.html" title="agency portfolio">Our Team</a>
+				
+							</li>
+							<li class="hasSubMenu">
+								<a href="Work.html" title="hoe wij design aanpakken ">Our Work</a>
+								<ul>
+									<li>
+										<a href="Detailwork.html">Detailpagina</a>
+									</li>
+								</ul>
+							</li>
+							
+							<li class="hasSubMenu">
+								<a href="Contact.html" title="laten we elkaar ontmoeten">Contact</a>
+									<ul>
+								<li>
+										<a href="Formulier.html">Contactenformulier</a>
+										<a href="Bureau.html">Agency bureau</a>
+          		   </li> 
+								
+        		 </ul>
+							  </li>
+						   	  </ul>
+
+     		 </nav>
+
+
+	</div>
+		</div><!--einde grid__container nav-->
+	  
+ 		<!-- begin inhoud --> 
+ 	<div class="sf-grid__wrapper"> 
+	  	<div class="sf-grid__container">
+	  		<div class="sf-grid__row">
+  			
+	  			<div class="sf-grid__column-4"> <!-- kolom 1 --> 
+	  				<img class="Posters foto" src="images/Posters.png">
+            <img class="Illustrator foto" src="images/Illustrator.png">
+			  	</div>
+
+
+
+        
+				  <div class="sf-grid__column-4"> <!-- kolom 2--> 
+				  	<img class="Dieren foto" src="images/Dieren.png">
+          	<img class="Indesign foto" src="images/Indesign.png">
+			    </div>
+
+
+
+
+          <div class="sf-grid__column-4"> <!-- kolom 3--> 
+			    	<img class="Logos foto" src="images/Logos.png">  
+          	<img class="Website foto" src="images/Website.png">
+			    </div>
+
+		
+
+			</div>
+		</div>
+	</div>
+
+	
+	  
+ 		<!-- footer --> 
+ 	<div class="footer-wrapper ">
+	<div class="sf-grid__container">
+		<div class="sf-grid__row">
+			<div>
+				<footer class="footer">
+					<h1 class="hidden">Heyvaert Design</h1>
+						<div class="sf-grid__column-4footer">
+							Copyright Heyvaert Design 2017
+						</div>
+						<div class="sf-grid__column-4footer">
+						</div>
+						<div class="sf-grid__column-4footer">
+							Developed by Lore Heyvaert
+						</div>
+						
+					  <i class="fa fa-facebook-square" style="font-size:40px;margin-left:20px"></i>
+					  <i class="fa fa-pinterest-square" style="font-size:40px;margin-left:8px"></i>
+					  <i class="fa fa-twitter-square" style="font-size:40px;margin-left:8px"></i>
+					  <i class="fa fa-youtube-square" style="font-size:40px;margin-left:8px"></i>
+				  	<img class="logo" src="images/Logo.png">
+					
+				</footer>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
   </body>
 </html>

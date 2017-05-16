@@ -30,6 +30,8 @@
     <link rel="dns-prefetch" href="//code.jquery.com">
     <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
     <!-- Icons -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
     <!-- http://realfavicongenerator.net/ -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="assets/icons/favicon-32x32.png" sizes="32x32">
@@ -47,75 +49,157 @@
     <link rel="stylesheet" media="all" href="css/fonts.css">
     <link rel="stylesheet" media="all" href="css/typography.css">
     <link rel="stylesheet" media="all" href="css/grid.css">
+	<link rel="stylesheet" media="all" href="css/styleguide.css">
     <!-- Modernizr: feature detection -->
-    <script src="vendor/modernizr/modernizr.min.js"></script>
+    <script src="vendor/modernizr/_modernizr0.min.js"></script>
 </head>
   </head>
   <body>
+	  <section class="hero">
+  <div class="hero__text">
+    <h2 class="hero__title">Heyvaert Design</h2>
+    <p class="graphicdesigner">Graphic Designer</p>
+    <a href="#" class="hero__button">Contact</a><div>
+	<i class="fa fa-home" style="font-size:40px;margin-left:-1300px"></i>
+	<i class="fa fa-reorder" style="font-size:30px;margin-left:8px"></i>
+  </div>
+</section>
 		<!-- begin hoofdnavigatie -->
-	<div class="grid__wrapper"> 
-	  	<div class="grid__container">
-	  		<div class="grid__row">
-	  			<div class="grid__column-12">
-	  				<nav>
-	  					<ul>
-	  						<li>
-								<a href="#">Home</a>
+	<div class="sf-grid__wrapper">
+		<div class="sf-grid__container">
+			<div class="sf-grid__row ">
+				
+					<nav id="main-navigation">
+						<ul class="clearfix">
+							<li class="hasSubMenu">
+								<a href="#" title="terug naar de agency homepage">About</a>
+									<ul>
+								<li>
+										<a href="#">Over ons</a>
+										<a href="#">Diensten</a>
+								</li>
+									</ul>
 							</li>
-							<li>
-								<a href="#">Portfolio</a>
+							<li class="hasSubMenu">
+								<a href="" title="agency portfolio">Our Team</a>
+					
 							</li>
-							<li>
-								<a href="#">Contact</a>
+							<li class="hasSubMenu">
+								<a href="#" title="hoe wij design aanpakken ">Our Work</a>
+			
+								<ul>
+									<li>
+										<a href="#">Detailpagina</a>
+									</li>
+								</ul>
+							</li>
+							
+							<li class="hasSubMenu">
+								<a href="#" title="laten we elkaar ontmoeten">Contact</a>
+									<ul>
+								<li>
+										<a href="#">Contactenformulier</a>
+										<a href="#">Agency bureau</a>
+								</li>
+								
+							</ul>
 							</li>
 						</ul>
+
 					</nav>
-				</div>
+
+
 			</div>
-		</div>
-	</div>
+		</div><!--einde grid__container nav-->
 	  
  		<!-- begin inhoud --> 
- 	<div class="grid__wrapper"> 
-	  	<div class="grid__container">
-	  		<div class="grid__row">
+ 	<div class="sf-grid__wrapper"> 
+	  	<div class="sf-grid__container">
+	  		<div class="sf-grid__row">
   			
-	  			<div class="grid__column-4"> <!-- nu heb je 3 kollomen --> 
+	  			<div class="sf-grid__column-6"> <!-- kolom 1 --> 
 	  				<article class="news-article">
-	  					<h2>mijn titel</h2>
-						<p>wat tekst</p>
-					</article>
+	  					<p class="buttons button1">Button 1</p>
+						<p class="buttons button2">Button 2</p>
+						<p class="buttons button3">Button 3</p><br>
+						<br>
+						<br>
+						<br>
+	
+						<h1 class="h1">Titel1</h1>
+						<h2 class="h2">Titel2</h2>
+						<h3 class="h3">Tussentitel1</h3><br>
+						<p class="Contactenformulier">Contactenformulier</p>
+						<form action="example.php" method="post">
+							<div class="formulier">
+								<label for="Voornaam" class="title">Voornaam:</label>
+								<input type="text" id="Voornaam" voormaan="voornaam"/>
+							</div>
+							<div class="formulier">
+									<label for="Achternaam" class="title">Achternaam:</label>
+								<input type="text" id="Achternaam" voormaan="voornaam"/>
+							</div>
+							<div class="formulier">
+									<label for="Adres" class="title">Adres:</label>
+								<input type="text" id="Adres" voornaam="voornaam"/>
+							</div><br>
+							<form class="Comments" action="http://www.example.com/comments.php">
+							<textarea name="Comments" cols="20" rows="4">Comments...</textarea>
+							</form><br>
+
+	  				</article>
 				</div>
-				<div class="grid__column-4"> 
-					<article class="newproduct-article">
-	  					<h2>mijn titel</h2>
-						<p>wat tekst</p>
+				<div class="sf-grid__column-6"> <!-- kolom 2--> 
+					<article class="news-article">
+						<p>dignam a volo velit quam, il id mi, audiatiis ex eatus amenis ataqui con naturer eiusdandis nosto odis eos eat is quiassi alit molut audae plibusc ipitis sento et arcit idem ventibus aborum ut ommollante volorrovide pliquam volorit rero veriat aut evelist re lantum is quodisit, quatiatiis apiet estotat.<br>
+						Otatecusdae simusdanimi, officto rerore voluptatur aut qui odia doloristia num qui nestium dus, siminitemos earum experci enducil molorem dolut ipsanto deni assequos quo optatemodi odit, etur?
+						Ibus ditatem explacepe expelit ex erum sequidit quiasped expliqu asimpor audae non pelitem est, suntemperum eosaeperum ex est exped modi sant.
+						Tem est, ium endes moluptur, voluptaquae voluptat.
+						Es atum iliquaersped eum facescimosa veles ut ant quati blab illab in consecum neculpa ium la si volupta viti aute est, ut recta evel inum sincte sin ere doluptatiosa ne dolorep tatempo rioriae placi occat alis que nam dolore vel is abore sitas et re pra int dolorpos sam dis quiduciis que voluptae  </p><br><hr>
 					</article>
+
+				<div class="kleuren">
+					<p class="boxes kleur1"> #99675e</p>
+					<p class="boxes kleur2">#dcbeab </p>
+					<p class="boxes kleur3"> #8ba4a6</p>
 				</div>
-				<div class="grid__column-4"> 
-					<article class="newproduct-article">
-	  					<h2>mijn titel</h2>
-						<p>wat tekst</p>
-					</article>
 				</div>
-				
+
 			</div>
 		</div>
 	</div>
+
+	
 	  
  		<!-- footer --> 
- 	 <div class="grid__wrapper"> 
-	  	<div class="grid__container">
-	  		<div class="grid__row">
-	  			<div class="grid__column-12">
-	  				<footer>
-						<h1>Footer</h1>
-					</footer>
+ 	<div class="footer-wrapper ">
+	<div class="sf-grid__container">
+		<div class="sf-grid__row">
+			<div class="sf-grid__column-12">
+				<footer class="footer">
+					<h1 class="hidden">Heyvaert Design</h1>
+						<div class="sf-grid__column-4footer">
+							Copyright Heyvaert Design 2017
+						</div>
+						<div class="sf-grid__column-4footer">
+						
+						</div>
+						<div class="sf-grid__column-4footer">
+							Developed by Lore Heyvaert
+						</div>
+						
+					<i class="fa fa-facebook-square" style="font-size:40px;margin-left:20px"></i>
+					<i class="fa fa-pinterest-square" style="font-size:40px;margin-left:8px"></i>
+					<i class="fa fa-twitter-square" style="font-size:40px;margin-left:8px"></i>
+					<i class="fa fa-youtube-square" style="font-size:40px;margin-left:8px"></i>
+					<img class="logo" src="images/Logo.png">
+					</div>
 					
-				</div>
+				</footer>
 			</div>
 		</div>
-	 </div>
+	</div>
+</div>
  		
   </body>
 </html>
