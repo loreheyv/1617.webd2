@@ -309,7 +309,8 @@ input[type=submit]:hover {
 
 .containerwork {
     position: relative;
-    width: 50%;
+    width: 90%;
+    padding:20px;
 }
 
 .work {
@@ -344,3 +345,4 @@ input[type=submit]:hover {
   color: white;
   font-size: 16px;
   padding: 16px 32px;
+}
