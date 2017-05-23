@@ -210,14 +210,17 @@ margin-top: -300px;
 }
 
 .footer{
-  background-color: #dcbeab;
   width:1270px;
   color:white;
-  margin-top: 100px;
   height: 170px;
   padding:12px;
   float:auto;
   
+}
+
+.footer-wrapper{
+    background-color: #dcbeab;
+    margin-top: 20px;
 }
 
 .foto{
