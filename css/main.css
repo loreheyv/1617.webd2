@@ -322,6 +322,19 @@ input[type=submit]:hover {
   backface-visibility: hidden;
 }
 
+.hert{
+
+width:70%;
+
+}
+
+.element{
+
+width:70%;
+}
+.motor{
+  height:200px;
+}
 .middle {
   transition: .5s ease;
   opacity: 0;
