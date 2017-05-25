@@ -332,6 +332,24 @@ width:70%;
 
 }
 
+.ourwork{
+  width:20%;
+  margin-left:28px;
+}
+
+.kader{
+width:60%;
+margin-left: 20px;
+margin-top: 20px;
+position:center;
+}
+
+.contact{
+  width:20%;
+  height:auto;
+  margin-top:20px;
+}
+
 .middle {
   transition: .5s ease;
   opacity: 0;
