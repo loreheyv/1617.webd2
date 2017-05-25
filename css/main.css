@@ -32,7 +32,7 @@
 .hero__title { 
   font-family: 'Times New Roman', Times, serif;
   margin: 0;
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 300;
 }
 .graphicdesigner{
@@ -325,16 +325,23 @@ input[type=submit]:hover {
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
+
 }
 
 .hert{
 width:70%;
 
 }
+.website{
+height:210px;
+width:auto;
+margin-top:20px;
+}
 
 .ourwork{
   width:20%;
   margin-left:28px;
+  margin-top: 20px;
 }
 
 .kader{
