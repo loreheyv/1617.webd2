@@ -387,26 +387,52 @@ position:center;
 }
 
 .memory{
-width:50%;
+width:100%;
 margin-left:28px;
 margin-top: 20px;
 }
 
 .worktekst{
 margin-left:200px;
+margin-top:50px;
 
 }
 
-}<p class="h1">Memory spel - Afrikaanse dieren</p>
+.dieren{
+margin:20px;
+width:200px;
+height:auto;
 
- <img class="memory" src="images/doosje3.jpg">
+}
 
-<img class="memory" src="images/doosje2.jpg">
-        
-		<img class="memory" src="images/doosje1.jpg">
-	
+.pinguin{
+  margin-top:100px;
+  width:200px;
+}
 
-            <p class="memorytekst">Memory spel voor kinderen ouder dan 5jaar.<br>
-			Het spel bevat 8 kaartjes van vier verschillende dieren.<br>
-			Het doel is om zoveel mogelijk paren te vinden om het spel te winnen.<br>
-			Het thema van het spel is Afrika en Afrikaanse dieren.
+.hertje{
+  width:150px;
+}
+
+.element{
+  width:90%;
+}
+
+.lh{
+  width:110%;
+}
+
+.giraf{
+ width:110%;
+ margin-top: 100px;
+}
+
+.poster2{
+ width:100%;
+ margin-top: 100px;
+}
+
+.poster4{
+ width:110%;
+ margin-top: 70px;
+}
